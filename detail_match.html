@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="img/logo-pl.png">
+    <div class="teal lighten-1">
+        <title>Detail Match</title>
+    </div>
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#00897B">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="teal lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo a-site-title center" id="logo-container">Premier League</a>
+            <a href="javascrit:void(0)" onclick="javascript:window.history.back(-1);return false;" data-target="nav-mobile">
+                <i><</i>
+            </a>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="container">
+        <div class="row a-mt-3">
+            <div class="card-content">
+                <div class="center-align">
+                    <h1 class="a-font-bold a-mb-3">Detail Match</h1>
+                </div>
+            </div>
+            <div class="card teal lighten-1">
+                <div class="card-content">
+                    <div class="center-align" id="a-preloader">
+                        <div class="preloader-wrapper big active">
+                            <div class="spinner-layer spinner-blue">
+                                <div class="circle-clipper left">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="gap-patch">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="circle-clipper right">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 id="a-matchDay" class="center-align white-text">Matchday: </h5>
+                    <div id="a-kickOff" class="center-align">Kick Off: </div>
+        
+                    <div class="row" style="margin:20px">
+                      <div class="col s5 right-align truncate">
+                        <span id="a-homeTeamName" class="a-font-bold white-text text-darken-2"></span>
+                      </div>
+                      <div class="col s2 center-align">
+                        VS
+                      </div>
+                      <div class="col s5 left-align truncate">
+                        <span id="a-awayTeamName" class="a-font-bold white-text text-darken-2"></span>
+                      </div>
+                    </div>
+        
+                    <div id="a-venue" class="center-align"></div>
+                    
+                    <div class="row center">
+                        <div id="addToFavorit">
+                            <a class="btn red">
+                                <i id="iconFav">Tambah Ke Favorit</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/show.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/fav.js"></script>
+</body>
+</html>

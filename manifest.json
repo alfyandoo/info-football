@@ -1,0 +1,25 @@
+{
+    "name": "Premier League",
+    "short_name": "EPL",
+    "description": "Aplikasi PWA Premier League",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [
+        {
+            "src": "/img/maskable_icon192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/maskable_icon512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "gcm_sender_id": "931067109013"
+}
+    
