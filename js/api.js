@@ -1,4 +1,4 @@
-const base_url = 'https://api.football-data.org/v2/';
+const base_url = 'https://api.football-data.org/v4/';
 const api_token = '20688b5692d54b4a92012cc8da88b81b';
 const endpoint = `${base_url}competitions/2021/standings`;
 const endpoint_jadwal = `${base_url}competitions/2021/matches?status=SCHEDULED&limit=20`;
